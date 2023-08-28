@@ -12,7 +12,7 @@ function HomePage({session}) {
                         <img src={session.user.image} alt=""></img>
                     </div>
                 ):(
-                    <p>Skeleton</p>
+                    <p>Skeleton Flavia</p>
                 )
             }
             <button onClick={()=> signOut()}>
